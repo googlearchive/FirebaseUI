@@ -335,7 +335,7 @@ a {
 
 .android-customized-section-text {
   max-width: 450px;
-  height: 320px;
+  height: 360px;
   margin-left: auto;
   margin-right: auto;
   padding: 80px 16px 0 16px;
@@ -364,6 +364,7 @@ a {
 
     .android-card-container .mdl-card__media img {
       width: 50%;
+      padding: 30px;
     }
 
   .android-card-container .mdl-card__title {
