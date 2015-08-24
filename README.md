@@ -37,7 +37,7 @@ use_frameworks!
 ```
 Run `pod install` in your terminal, open the project's workspace, and you should be able to import FirebaseUI.
 
-More information on iOS installation can be found [here](https://github.com/firebase/FirebaseUI-ios#downloading-firebaseui-for-ios).
+More information on iOS installation can be found [here](https://github.com/firebase/FirebaseUI-iOS#installing-firebaseui-for-ios).
 
 # Firebase UI Features
 
