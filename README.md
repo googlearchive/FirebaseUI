@@ -5,7 +5,7 @@
 
 These views are populated with the appropriate `child_added`, `child_changed`, `child_removed`, and `child_moved` events as they occur at the Firebase reference with no additional developer overhead. Additionally, the Adapters and Data Sources can easily be subclassed to add additional functionality  with little additional overhead.
 
-FirebaseUI is built on top of [Firebase](https://www.firebase.com) for realtime data storage and synchronization. [Sign up](https://www.firebase.com/signup) for a free account today!
+FirebaseUI is built on top of [Firebase](https://www.firebase.com/?utm_source=firebaseui) for realtime data storage and synchronization. [Sign up](https://www.firebase.com/signup?utm_source=firebaseui) for a free account today!
 
 # FirebaseUI Clients
 FirebaseUI is available for both native mobile clients:
@@ -59,7 +59,7 @@ UICollectionViewDataSource | Binds a Firebase ref or query to a UICollectionView
 FirebaseUI plans to add several more features, including standard auth controls, pagination/infinite scroll, and navigation. See [Contributing](https://github.com/firebase/FirebaseUI#contributing) below for more information on how to get involved.
 
 # Website
-This repo contains the source for the [FirebaseUI](https://firebaseui.firebaseapp.com) main website, which was build with [Material Lite](https://www.getmdl.io) and inspired by the [Android Material template](http://www.getmdl.io/templates/android-dot-com/index.html) and the [Android](https://www.android.com) main site. The site is hosted on [Firebase Hosting](https://www.firebase.com/hosting.html).
+This repo contains the source for the [FirebaseUI](https://firebaseui.firebaseapp.com) main website, which was build with [Material Lite](https://www.getmdl.io) and inspired by the [Android Material template](http://www.getmdl.io/templates/android-dot-com/index.html) and the [Android](https://www.android.com) main site. The site is hosted on [Firebase Hosting](https://www.firebase.com/hosting.html?utm_source=firebaseui).
 
 # Support
 Firebase has excellent community driven support to help you develop amazing apps.
