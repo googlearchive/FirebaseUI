@@ -45,15 +45,15 @@ More information on iOS installation can be found [here](https://github.com/fire
 
 Feature  | Description
 ------------- | -------------
-FirebaseListAdapter  | Binds a Firebase ref or query to a ListAdapter, which can populate a ListView or GridView.
-FirebaseRecyclerViewAdapter | Binds a Firebase ref or query to a RecyclerView.
+[FirebaseListAdapter](https://firebaseui.com/docs/android/index.html)  | Binds a Firebase ref or query to a ListAdapter, which can populate a ListView or GridView.
+[FirebaseRecyclerViewAdapter](https://firebaseui.com/docs/android/index.html) | Binds a Firebase ref or query to a RecyclerView.
 
 ## iOS
 
 Feature  | Description
 ------------- | -------------
-UITableViewDataSource  | Binds a Firebase ref or query to a UITableView.
-UICollectionViewDataSource | Binds a Firebase ref or query to a UICollectionView.
+[UITableViewDataSource](https://firebaseui.com/docs/ios/Classes/FirebaseTableViewDataSource.html)  | Binds a Firebase ref or query to a UITableView.
+[UICollectionViewDataSource](https://firebaseui.com/docs/ios/Classes/FirebaseCollectionViewDataSource.html) | Binds a Firebase ref or query to a UICollectionView.
 
 ## Roadmap
 FirebaseUI plans to add several more features, including standard auth controls, pagination/infinite scroll, and navigation. See [Contributing](https://github.com/firebase/FirebaseUI#contributing) below for more information on how to get involved.
