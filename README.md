@@ -1,7 +1,7 @@
-[FirebaseUI](https://firebaseui.firebaseapp.com): Simplyify Mobile Development with Firebase
+FirebaseUI: Simplyify Mobile Development with Firebase
 ======================================================
 
-[FirebaseUI](https://firebaseui.firebaseapp.com) is a library that allows developers to quickly build native mobile applications with Firebase by binding common UI views to Firebase references or queries. Currently FirebaseUI supports `ListViews`, `GridViews`, and `RecyclerViews` on Android through custom Firebase Adapters and `UITableViews` and `UICollectionViews` on iOS through custom Data Sources.
+FirebaseUI is a library that allows developers to quickly build native mobile applications with Firebase by binding common UI views to Firebase references or queries. Currently FirebaseUI supports `ListViews`, `GridViews`, and `RecyclerViews` on Android through custom Firebase Adapters and `UITableViews` and `UICollectionViews` on iOS through custom Data Sources.
 
 These views are populated with the appropriate `child_added`, `child_changed`, `child_removed`, and `child_moved` events as they occur at the Firebase reference with no additional developer overhead. Additionally, the Adapters and Data Sources can easily be subclassed to add additional functionality  with little additional overhead.
 
