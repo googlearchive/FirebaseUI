@@ -18,7 +18,7 @@ Clients feature similar functionality and a similar API, though there are severa
 ## Android
 Add the following line to your `build.gradle` dependencies:
 ```
-compile 'com.firebase.firebase-ui:0.2.0'
+compile 'com.firebaseui.firebase-ui:0.2.0'
 ```
 Resync your project and you should be able to use FirebaseUI.
 
