@@ -66,6 +66,7 @@ Firebase has excellent community driven support to help you develop amazing apps
   1. [Stack Overflow](http://stackoverflow.com/questions/tagged/firebase)
   1. [Firebase Talk Google Group](https://groups.google.com/forum/#!forum/firebase-talk)
   1. GitHub Issues for [Android](https://github.com/firebase/FirebaseUI-Android/issues) and [iOS](https://github.com/firebase/FirebaseUI-iOS/issues)
+  1. The [Firebase Community on Slack](http://firebase-community.appspot.com/)
 
 # Contributing
 We would love for you to contribute to FirebaseUI! Please see the [Android](https://github.com/firebase/FirebaseUI-Android#contributing-a-patch) or [iOS](https://github.com/firebase/FirebaseUI-iOS#contributing-to-firebaseui) repos for more information on contributing to each project.
