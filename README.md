@@ -22,7 +22,7 @@ compile 'com.firebaseui.firebase-ui:0.3.1'
 ```
 Resync your project and you should be able to use FirebaseUI.
 
-More information on Android installation can be found [here](https://github.com/firebase/FirebaseUI-Android#using-the-library-in-your-android-app).
+More information on Android installation can be found [here](https://github.com/firebase/FirebaseUI-Android#installation).
 
 ## iOS
 Add the following line to your `Podfile`:
