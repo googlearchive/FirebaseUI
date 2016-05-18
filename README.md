@@ -16,28 +16,12 @@ Clients feature similar functionality and a similar API, though there are severa
 
 # Installing FirebaseUI
 ## Android
-Add the following line to your `build.gradle` dependencies:
-```
-compile 'com.firebaseui.firebase-ui:0.3.1'
-```
-Resync your project and you should be able to use FirebaseUI.
 
-More information on Android installation can be found [here](https://github.com/firebase/FirebaseUI-Android#installation).
+Information on Android installation can be found [here](https://github.com/firebase/FirebaseUI-Android#installation).
 
 ## iOS
-Add the following line to your `Podfile`:
-```
-pod 'FirebaseUI', '~> 0.3.2'
-```
 
-If you're using Swift, remember to add:
-```
-platform :ios, '8.0'
-use_frameworks!
-```
-Run `pod install` in your terminal, open the project's workspace, and you should be able to import FirebaseUI.
-
-More information on iOS installation can be found [here](https://github.com/firebase/FirebaseUI-iOS#installing-firebaseui-for-ios).
+Information on iOS installation can be found [here](https://github.com/firebase/FirebaseUI-iOS#installing-firebaseui-for-ios).
 
 # Firebase UI Features
 
