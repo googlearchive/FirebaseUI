@@ -1,7 +1,7 @@
 FirebaseUI: Simplifying Mobile Development with Firebase
 ======================================================
 
-FirebaseUI is a library that provides common UI elements when building apps. This includes a 
+FirebaseUI is a library that provides common UI elements when building apps. This includes
 * a basic Auth flow implementation on web, Android, and iOS
 * bindings for `ListViews`, `GridViews`, and `RecyclerViews` in Android through custom Firebase Adapters
 * bindings for `UITableViews` and `UICollectionViews` on iOS through custom Data Sources.
