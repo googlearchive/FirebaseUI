@@ -1,16 +1,20 @@
-FirebaseUI: Simplyify Mobile Development with Firebase
+FirebaseUI: Simplifying Mobile Development with Firebase
 ======================================================
 
-FirebaseUI is a library that allows developers to quickly build native mobile applications with Firebase by binding common UI views to Firebase references or queries. Currently FirebaseUI supports `ListViews`, `GridViews`, and `RecyclerViews` on Android through custom Firebase Adapters and `UITableViews` and `UICollectionViews` on iOS through custom Data Sources.
+FirebaseUI is a library that provides common UI elements when building apps. This includes
+* a basic Auth flow implementation on web, Android, and iOS
+* bindings for `ListViews`, `GridViews`, and `RecyclerViews` in Android through custom Firebase Adapters
+* bindings for `UITableViews` and `UICollectionViews` on iOS through custom Data Sources.
 
 These views are populated with the appropriate `child_added`, `child_changed`, `child_removed`, and `child_moved` events as they occur at the Firebase reference with no additional developer overhead. Additionally, the Adapters and Data Sources can easily be subclassed to add additional functionality  with little additional overhead.
 
 FirebaseUI is built on top of [Firebase](https://www.firebase.com/?utm_source=firebaseui) for realtime data storage and synchronization. [Sign up](https://www.firebase.com/signup?utm_source=firebaseui) for a free account today!
 
 # FirebaseUI Clients
-FirebaseUI is available for both native mobile clients:
+FirebaseUI is available on:
   1. [Android](https://github.com/firebase/FirebaseUI-Android)
   1. [iOS](https://github.com/firebase/FirebaseUI-iOS)
+  1. [Web](https://github.com/firebase/firebaseui-web)
 
 Clients feature similar functionality and a similar API, though there are several platform specific differences.
 
@@ -23,6 +27,10 @@ Information on Android installation can be found [here](https://github.com/fireb
 
 Information on iOS installation can be found [here](https://github.com/firebase/FirebaseUI-iOS#installing-firebaseui-for-ios).
 
+## Web
+
+Information on web installation can be found [here](https://github.com/firebase/firebaseui-web#user-content-installation).
+
 # Firebase UI Features
 
 ## Android
@@ -31,6 +39,7 @@ Feature  | Description
 ------------- | -------------
 [FirebaseListAdapter](https://firebaseui.com/docs/android/index.html)  | Binds a Firebase ref or query to a ListAdapter, which can populate a ListView or GridView.
 [FirebaseRecyclerViewAdapter](https://firebaseui.com/docs/android/index.html) | Binds a Firebase ref or query to a RecyclerView.
+[Firebase Auth UI](https://github.com/firebase/FirebaseUI-Android/tree/master/auth) | UI flows for Authentication
 
 ## iOS
 
@@ -38,6 +47,13 @@ Feature  | Description
 ------------- | -------------
 [UITableViewDataSource](https://firebaseui.com/docs/ios/Classes/FirebaseTableViewDataSource.html)  | Binds a Firebase ref or query to a UITableView.
 [UICollectionViewDataSource](https://firebaseui.com/docs/ios/Classes/FirebaseCollectionViewDataSource.html) | Binds a Firebase ref or query to a UICollectionView.
+[Firebase Auth UI](https://github.com/firebase/FirebaseUI-iOS/tree/master/FirebaseAuthUI) | UI flows for Authentication
+
+## Web
+Feature  | Description
+------------- | -------------
+[Firebase Auth UI](https://github.com/firebase/firebaseui-web) | UI flows for Authentication
+
 
 ## Roadmap
 FirebaseUI plans to add several more features, including standard auth controls, pagination/infinite scroll, and navigation. See [Contributing](https://github.com/firebase/FirebaseUI#contributing) below for more information on how to get involved.
